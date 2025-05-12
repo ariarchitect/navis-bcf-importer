@@ -1,0 +1,11 @@
+[project]
+name = "navis-bcf-importer"
+version = "0.1.0"
+description = "Convert BCF files to Navisworks-compatible XML"
+authors = [{ name = "Oleg Ariarskiy" }]
+license = "MIT"
+readme = "README.md"
+dependencies = []
+
+[project.scripts]
+bcf2nw = "navis-bcf-importer:main"
